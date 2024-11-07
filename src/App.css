@@ -1,0 +1,136 @@
+.header-image {
+  width: 75%;
+  height: 150px;
+  background-color: #1F64AC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.header-image img {
+  max-height: 100%;
+}
+
+.header-image h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.content-container {
+  width: 75% !important;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-dialog {
+  max-width: 75%;
+  margin: auto;
+}
+
+.modal-content {
+  border-radius: 0;
+  height: 75vh;
+}
+
+.modal-body {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.form-row {
+  margin-bottom: 1rem;
+}
+
+.modal-body form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-control,
+.form-select {
+  margin-bottom: 0.5rem;
+}
+
+.btn-info {
+  color: #fff !important;
+  background-color: #1d639c !important;
+  border-color: #1d639c !important;
+}
+.login-page-container {
+  min-height: 100vh;
+}
+
+.login-form-container {
+  padding: 4rem 2rem; /* Increased padding for better layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; /* Align vertically */
+}
+
+.bg-image-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.bg-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transform: skewX(-10deg); /* Skewed effect for image */
+  transform-origin: top right;
+  background-color: rgba(255, 255, 255, 0.3); /* Softer white overlay */
+  z-index: 1;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25); /* Dark overlay for better contrast */
+  z-index: 2;
+}
+
+.login-title{
+  color:#1c0950;
+  font-size:40px;
+}
+
+.form-col{
+  max-width: 450px;
+}
+.login-btn{
+  background-color: #1d639c !important;
+  padding: .78rem 11.5rem !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  text-align: center !important;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,transform .25s ease-in-out !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  vertical-align: middle !important;
+  cursor:pointer  !important;
+  color:white !important;
+
+
+}
+
+.btn-add{
+  background-color: #1d639c !important;
+  color:white !important;
+}
